@@ -35,27 +35,26 @@ Este projeto é uma API REST desenvolvida em Laravel que permite realizar opera�
 
 4. **SQL para Criação da Database e Tabelas no PostgreSQL**
    ```bash
-  -- Criar a database
-CREATE DATABASE reserva_smart;
+   -- Criar a database
+   CREATE DATABASE reserva_smart;
 
--- Conectar à database
-\c reserva_smart;
+   -- Conectar à database
+    \c reserva_smart;
 
--- Criar a tabela salas
-CREATE TABLE salas (
-    id SERIAL PRIMARY KEY,
-    nome_sala VARCHAR(255) NOT NULL
-);
+   -- Criar a tabela salas
+    CREATE TABLE salas (
+        id SERIAL PRIMARY KEY,
+        nome_sala VARCHAR(255) NOT NULL
+    );
 
--- Criar a tabela reserva_salas
-CREATE TABLE reserva_salas (
-    id SERIAL PRIMARY KEY,
-    nome_sala VARCHAR(255) NOT NULL,
-    dt_hr_inicio TIMESTAMP NOT NULL,
-    dt_hr_termino TIMESTAMP NOT NULL,
-    nome_responsavel VARCHAR(255) NOT NULL,
-    status BOOLEAN DEFAULT TRUE,
-    FOREIGN KEY (nome_sala) REFERENCES salas(nome_sala) ON DELETE CASCADE
-);
-
+    -- Criar a tabela reserva_salas
+    CREATE TABLE reserva_salas (
+        id SERIAL PRIMARY KEY,
+        nome_sala VARCHAR(255) NOT NULL,
+        dt_hr_inicio TIMESTAMP NOT NULL,
+        dt_hr_termino TIMESTAMP NOT NULL,
+        nome_responsavel VARCHAR(255) NOT NULL,
+        status BOOLEAN DEFAULT TRUE,
+        FOREIGN KEY (nome_sala) REFERENCES salas(nome_sala) ON DELETE CASCADE
+    );
    
