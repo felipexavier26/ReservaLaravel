@@ -95,33 +95,59 @@ Este projeto é uma API REST desenvolvida em Laravel que permite realizar opera�
 
 8. **Listar todas as reservas**
    ```bash
-   ### 2. Listar Todas as Salas
     curl -X GET http://127.0.0.1:8000/api/reserva_salas
 
-9. **Deletar uma reserva**
+9. **Obter Informações de uma Reserva Específica**
    ```bash
+    curl -X GET  http://127.0.0.1:8000/api/reserva_salas/{id}
+
+10. ** Atualizar uma Sala Existente**
+    ```bash
+    curl -X PUT http://localhost:8000/api/reserva_salas/{id} \
+    -H "Content-Type: application/json" \
+    -d '{
+        "nome_sala": "Sala 101",
+        "dt_hr_inicio": "2024-09-30 10:00:00",
+        "dt_hr_termino": "2024-09-30 12:00:00",
+        "nome_responsavel": "João Silva da cruz"
+    }'
+
+11. **Deletar uma reserva**
+    ```bash
     ### 3. Deletar uma reserva
     curl -X DELETE http://127.0.0.1:8000/api/reserva_salas/{id}
+    
 
-
-10. **Exemplo de Chamadas com cURL**
+12. **Exemplo de Chamadas com cURL**
+    ```bash
     ```bash
     ### 1. Criar uma Nova Sala
-    ```bash
     curl -X POST http://127.0.0.1:8000/api/salas \
     -H "Content-Type: application/json" \
     -d '{
         "nome_sala": "Sala 102"
     }'
 
-
 11. **Listar todas as salas**
     ```bash
-    ### 2. Listar Todas as Salas
     curl -X GET http://127.0.0.1:8000/api/salas
 
+11. **Obter Informações de uma Sala Específica**
+    ```bash
+      curl -X GET http://localhost:8000/api/salas/{sala_id}
+
+12. **Obter Informações de uma Sala Específica**
+    ```bash
+    curl -X GET http://localhost:8000/api/salas/{sala_id}
+
+12. **Obter Informações de uma Sala Específica**
+    ```bash
+    curl -X PUT http://localhost:8000/api/salas/{id} \
+    -H "Content-Type: application/json" \
+    -d '{
+        "nome_sala": "Sala 103"
+    }'
 
 12. **Deletar uma reserva**
    ```bash
-     ### 3. Deletar uma reserva
      curl -X DELETE http://127.0.0.1:8000/api/salas/{id}
