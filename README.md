@@ -66,7 +66,7 @@ Este projeto é uma API REST desenvolvida em Laravel que permite realizar opera�
    ```bash
     Rotas para a API de reserva_salas
    
-    GET /api/reserva_salas: Lista todas as reservas de salas.
+   <li> GET /api/reserva_salas: Lista todas as reservas de salas.</li>
     GET /api/reserva_salas/{salas}: Obtém uma reserva específica pelo ID.
     POST /api/reserva_salas: Cria uma nova reserva.
     PUT /api/reserva_salas/{salas}: Atualiza uma reserva existente.
