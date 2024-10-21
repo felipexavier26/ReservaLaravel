@@ -12,7 +12,7 @@ Este projeto é uma API REST desenvolvida em Laravel que permite realizar opera�
 
 ## Ambiente Necessário
 
-- **PHP:** >= 8.0
+- **PHP:** >= 8.0 
 - **Composer:** (para gerenciar dependências do PHP)
 - **PostgreSQL:** >= 12.x
 
