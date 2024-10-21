@@ -83,6 +83,7 @@ Este projeto √© uma API REST desenvolvida em Laravel que permite realizar opera√
 
 7. **Exemplo de Chamadas com cURL**
    ```bash
+    ### 1. Criar uma Nova Reserva de sala
     curl -X POST http://localhost:8000/api/reserva_salas \
     -H "Content-Type: application/json" \
     -d '{
@@ -97,5 +98,27 @@ Este projeto √© uma API REST desenvolvida em Laravel que permite realizar opera√
     curl -X GET http://localhost:8000/api/reserva_salas
 
 9. **Deletar uma reserva**
+   ```bash
+    curl -X DELETE http://localhost:8000/api/reserva_salas/{salas}
+
+
+10. **Exemplo de Chamadas com cURL**
+    ```bash
+    ### 1. Criar uma Nova Sala
+    ```bash
+    curl -X POST http://localhost:8000/api/salas \
+    -H "Content-Type: application/json" \
+    -d '{
+        "nome_sala": "Sala 102"
+    }'
+
+
+11. **Listar todas as reservas**
+    ```bash
+    ### 2. Listar Todas as Salas
+    curl -X GET http://localhost:8000/api/salas
+
+
+12. **Deletar uma reserva**
    ```bash
     curl -X DELETE http://localhost:8000/api/reserva_salas/{salas}
