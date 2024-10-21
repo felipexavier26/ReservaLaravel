@@ -103,7 +103,7 @@ Este projeto é uma API REST desenvolvida em Laravel que permite realizar opera�
 
 10. ** Atualizar uma Sala Existente**
     ```bash
-    curl -X PUT http://localhost:8000/api/reserva_salas/{id} \
+    curl -X PUT http://127.0.0.1:8000/api/reserva_salas/{id} \
     -H "Content-Type: application/json" \
     -d '{
         "nome_sala": "Sala 101",
@@ -134,15 +134,15 @@ Este projeto é uma API REST desenvolvida em Laravel que permite realizar opera�
 
 11. **Obter Informações de uma Sala Específica**
     ```bash
-      curl -X GET http://localhost:8000/api/salas/{sala_id}
+      curl -X GET http://127.0.0.1:8000/api/salas/{sala_id}
 
 12. **Obter Informações de uma Sala Específica**
     ```bash
-    curl -X GET http://localhost:8000/api/salas/{sala_id}
+    curl -X GET http://127.0.0.1:8000/api/salas/{sala_id}
 
 12. **Obter Informações de uma Sala Específica**
     ```bash
-    curl -X PUT http://localhost:8000/api/salas/{id} \
+    curl -X PUT http://127.0.0.1:8000/api/salas/{id} \
     -H "Content-Type: application/json" \
     -d '{
         "nome_sala": "Sala 103"
