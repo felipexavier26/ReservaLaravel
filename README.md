@@ -62,21 +62,22 @@ Este projeto é uma API REST desenvolvida em Laravel que permite realizar opera�
     );
 
 
-## Endpoints da API REST
- ```bash
-### Rotas para a API de `reserva_salas`
-- **GET** `/api/reserva_salas`: Lista todas as reservas de salas.
-- **GET** `/api/reserva_salas/{salas}`: Obtém uma reserva específica pelo ID.
-- **POST** `/api/reserva_salas`: Cria uma nova reserva.
-- **PUT** `/api/reserva_salas/{salas}`: Atualiza uma reserva existente.
-- **DELETE** `/api/reserva_salas/{salas}`: Deleta uma reserva.
+6. **Endpoints da API REST**<br>
+    ```bash
+    
+    ### Rotas para a API de `reserva_salas`
+    - **GET** `/api/reserva_salas`: Lista todas as reservas de salas.
+    - **GET** `/api/reserva_salas/{salas}`: Obtém uma reserva específica pelo ID.
+    - **POST** `/api/reserva_salas`: Cria uma nova reserva.
+    - **PUT** `/api/reserva_salas/{salas}`: Atualiza uma reserva existente.
+    - **DELETE** `/api/reserva_salas/{salas}`: Deleta uma reserva.
 
-### Rotas para a API de `salas`
-- **GET** `/api/salas`: Lista todas as salas disponíveis.
-- **GET** `/api/salas/{sala}`: Obtém informações de uma sala específica pelo ID.
-- **POST** `/api/salas`: Cria uma nova sala.
-- **PUT** `/api/salas/{id}`: Atualiza informações de uma sala existente.
-- **DELETE** `/api/salas/{sala}`: Deleta uma sala.
+    ### Rotas para a API de `salas`
+    - **GET** `/api/salas`: Lista todas as salas disponíveis.
+    - **GET** `/api/salas/{sala}`: Obtém informações de uma sala específica pelo ID.
+    - **POST** `/api/salas`: Cria uma nova sala.
+    - **PUT** `/api/salas/{id}`: Atualiza informações de uma sala existente.
+    - **DELETE** `/api/salas/{sala}`: Deleta uma sala.
 
 
 
