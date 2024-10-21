@@ -76,9 +76,7 @@ Este projeto é uma API REST desenvolvida em Laravel que permite realizar opera�
     - **POST** `/api/salas`: Cria uma nova sala.
     - **PUT** `/api/salas/{id}`: Atualiza informações de uma sala existente.
     - **DELETE** `/api/salas/{sala}`: Deleta uma sala.
-
-
-
+    
 7. **Exemplo de Chamadas com cURL**
    ```bash
     ### 1. Criar uma Nova Reserva de sala
