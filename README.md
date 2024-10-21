@@ -139,7 +139,7 @@ Este projeto é uma API REST desenvolvida em Laravel que permite realizar opera�
     ```bash
     curl -X GET http://127.0.0.1:8000/api/salas/{sala_id}
 
-12. **Obter Informações de uma Sala Específica**
+12. **Atualizar uma Sala Existente**
     ```bash
     curl -X PUT http://127.0.0.1:8000/api/salas/{id} \
     -H "Content-Type: application/json" \
