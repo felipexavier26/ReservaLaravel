@@ -76,5 +76,26 @@ Este projeto é uma API REST desenvolvida em Laravel que permite realizar opera�
     PUT /api/salas/{id}: Atualiza informações de uma sala existente.
     DELETE /api/salas/{sala}: Deleta uma sala.
 
+
+6. **Exemplo de Chamadas com cURL**
+   ```bash
+    curl -X POST http://localhost:8000/api/reserva_salas \
+    -H "Content-Type: application/json" \
+    -d '{
+        "nome_sala": "Sala 101",
+        "dt_hr_inicio": "2024-09-30 10:00:00",
+        "dt_hr_termino": "2024-09-30 12:00:00",
+        "nome_responsavel": "João Silva"
+    }'
+
+7. **Listar todas as reservas**
+   ```bash
+    curl -X GET http://localhost:8000/api/reserva_salas
+
+8. **Deletar uma reserva**
+   ```bash
+    curl -X DELETE http://localhost:8000/api/reserva_salas/{salas}
+
+
    
 
