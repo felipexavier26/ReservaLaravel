@@ -88,7 +88,7 @@ Este projeto √© uma API REST desenvolvida em Laravel que permite realizar opera√
         "nome_responsavel": "Jo√£o Silva"
     }'
 
-8. **Listar todas as reservas**
+8. **Listar todas as Reserva **
    ```bash
     curl -X GET http://127.0.0.1:8000/api/reserva_salas
 
@@ -96,7 +96,7 @@ Este projeto √© uma API REST desenvolvida em Laravel que permite realizar opera√
    ```bash
     curl -X GET  http://127.0.0.1:8000/api/reserva_salas/{id}
 
-10. **Atualizar uma Sala Existente**
+10. **Atualizar uma Reserva Existente**
     ```bash
     curl -X PUT http://127.0.0.1:8000/api/reserva_salas/{id} \
     -H "Content-Type: application/json" \
@@ -107,13 +107,13 @@ Este projeto √© uma API REST desenvolvida em Laravel que permite realizar opera√
         "nome_responsavel": "Jo√£o Silva da cruz"
     }'
 
-11. **Deletar uma reserva**
+11. **Deletar uma Reserva**
     ```bash
     ### 3. Deletar uma reserva
     curl -X DELETE http://127.0.0.1:8000/api/reserva_salas/{id}
     
 
-12. **Criar uma Nova Reserva de Sala**
+12. **Criar uma Nova Sala**
     ```bash
     ```bash
     curl -X POST http://127.0.0.1:8000/api/salas \
@@ -142,6 +142,6 @@ Este projeto √© uma API REST desenvolvida em Laravel que permite realizar opera√
         "nome_sala": "Sala 103"
     }'
 
-17. **Deletar uma reserva**
+17. **Deletar uma Sala**
    ```bash
      curl -X DELETE http://127.0.0.1:8000/api/salas/{id}
