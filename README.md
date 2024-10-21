@@ -32,8 +32,12 @@ Este projeto é uma API REST desenvolvida em Laravel que permite realizar opera�
    ```bash
    php artisan migrate
 
+4. **Crie um arquivo .env a partir do arquivo .env.example:**
+   ```bash
+   cp .env.example .env
 
-4. **SQL para Criação da Database e Tabelas no PostgreSQL**
+
+5. **SQL para Criação da Database e Tabelas no PostgreSQL**
    ```bash
    -- Criar a database
    CREATE DATABASE reserva_smart;
@@ -58,7 +62,7 @@ Este projeto é uma API REST desenvolvida em Laravel que permite realizar opera�
     );
 
 
-5. **Endpoints da API REST**<br>
+6. **Endpoints da API REST**<br>
    ```bash
     Rotas para a API de reserva_salas
    
@@ -77,7 +81,7 @@ Este projeto é uma API REST desenvolvida em Laravel que permite realizar opera�
     DELETE /api/salas/{sala}: Deleta uma sala.
 
 
-6. **Exemplo de Chamadas com cURL**
+7. **Exemplo de Chamadas com cURL**
    ```bash
     curl -X POST http://localhost:8000/api/reserva_salas \
     -H "Content-Type: application/json" \
@@ -88,11 +92,11 @@ Este projeto é uma API REST desenvolvida em Laravel que permite realizar opera�
         "nome_responsavel": "João Silva"
     }'
 
-7. **Listar todas as reservas**
+8. **Listar todas as reservas**
    ```bash
     curl -X GET http://localhost:8000/api/reserva_salas
 
-8. **Deletar uma reserva**
+9. **Deletar uma reserva**
    ```bash
     curl -X DELETE http://localhost:8000/api/reserva_salas/{salas}
 
