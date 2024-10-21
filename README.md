@@ -68,13 +68,13 @@ Este projeto é uma API REST desenvolvida em Laravel que permite realizar opera�
     PUT /api/reserva_salas/{salas}: Atualiza uma reserva existente.
     DELETE /api/reserva_salas/{salas}: Deleta uma reserva.
 
-   
+    Rotas para a API de salas
 
- Rotas para a API de salas
- ```bash
     GET /api/salas: Lista todas as salas disponíveis.
     GET /api/salas/{sala}: Obtém informações de uma sala específica pelo ID.
     POST /api/salas: Cria uma nova sala.
     PUT /api/salas/{id}: Atualiza informações de uma sala existente.
     DELETE /api/salas/{sala}: Deleta uma sala.
+
    
+
