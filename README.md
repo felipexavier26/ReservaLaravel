@@ -122,19 +122,19 @@ Este projeto é uma API REST desenvolvida em Laravel que permite realizar opera�
         "nome_sala": "Sala 102"
     }'
 
-11. **Listar todas as salas**
+13. **Listar todas as salas**
     ```bash
     curl -X GET http://127.0.0.1:8000/api/salas
 
-11. **Obter Informações de uma Sala Específica**
+14. **Obter Informações de uma Sala Específica**
     ```bash
       curl -X GET http://127.0.0.1:8000/api/salas/{sala_id}
 
-12. **Obter Informações de uma Sala Específica**
+15. **Obter Informações de uma Sala Específica**
     ```bash
     curl -X GET http://127.0.0.1:8000/api/salas/{sala_id}
 
-12. **Atualizar uma Sala Existente**
+16. **Atualizar uma Sala Existente**
     ```bash
     curl -X PUT http://127.0.0.1:8000/api/salas/{id} \
     -H "Content-Type: application/json" \
@@ -142,6 +142,6 @@ Este projeto é uma API REST desenvolvida em Laravel que permite realizar opera�
         "nome_sala": "Sala 103"
     }'
 
-12. **Deletar uma reserva**
+17. **Deletar uma reserva**
    ```bash
      curl -X DELETE http://127.0.0.1:8000/api/salas/{id}
