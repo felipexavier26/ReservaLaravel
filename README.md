@@ -60,7 +60,6 @@ Este projeto √© uma API REST desenvolvida em Laravel que permite realizar opera√
         FOREIGN KEY (nome_sala) REFERENCES salas(nome_sala) ON DELETE CASCADE
     );
 
-
 6. **Endpoints da API REST**<br>
     ```bash
     
