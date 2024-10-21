@@ -66,6 +66,7 @@ Este projeto √© uma API REST desenvolvida em Laravel que permite realizar opera√
     POST /api/reserva_salas: Cria uma nova reserva.
     PUT /api/reserva_salas/{salas}: Atualiza uma reserva existente.
     DELETE /api/reserva_salas/{salas}: Deleta uma reserva.
+   ```bash
 
  Rotas para a API de salas
  ```bash
