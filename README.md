@@ -99,7 +99,3 @@ Este projeto √© uma API REST desenvolvida em Laravel que permite realizar opera√
 9. **Deletar uma reserva**
    ```bash
     curl -X DELETE http://localhost:8000/api/reserva_salas/{salas}
-
-
-   
-
