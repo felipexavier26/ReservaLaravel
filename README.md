@@ -63,7 +63,7 @@ Este projeto é uma API REST desenvolvida em Laravel que permite realizar opera�
 
 
 ## Endpoints da API REST
-
+ ```bash
 ### Rotas para a API de `reserva_salas`
 - **GET** `/api/reserva_salas`: Lista todas as reservas de salas.
 - **GET** `/api/reserva_salas/{salas}`: Obtém uma reserva específica pelo ID.
