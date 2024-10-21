@@ -95,11 +95,13 @@ Este projeto √© uma API REST desenvolvida em Laravel que permite realizar opera√
 
 8. **Listar todas as reservas**
    ```bash
+   ### 2. Listar Todas as Salas
     curl -X GET http://localhost:8000/api/reserva_salas
 
 9. **Deletar uma reserva**
    ```bash
-    curl -X DELETE http://localhost:8000/api/reserva_salas/{salas}
+    ### 3. Deletar uma reserva
+    curl -X DELETE http://localhost:8000/api/reserva_salas/{id}
 
 
 10. **Exemplo de Chamadas com cURL**
@@ -113,7 +115,7 @@ Este projeto √© uma API REST desenvolvida em Laravel que permite realizar opera√
     }'
 
 
-11. **Listar todas as reservas**
+11. **Listar todas as salas**
     ```bash
     ### 2. Listar Todas as Salas
     curl -X GET http://localhost:8000/api/salas
@@ -121,4 +123,5 @@ Este projeto √© uma API REST desenvolvida em Laravel que permite realizar opera√
 
 12. **Deletar uma reserva**
    ```bash
-    curl -X DELETE http://localhost:8000/api/reserva_salas/{salas}
+     ### 3. Deletar uma reserva
+    curl -X DELETE http://localhost:8000/api/salas/{id}
