@@ -57,4 +57,14 @@ Este projeto é uma API REST desenvolvida em Laravel que permite realizar opera�
         status BOOLEAN DEFAULT TRUE,
         FOREIGN KEY (nome_sala) REFERENCES salas(nome_sala) ON DELETE CASCADE
     );
+
+
+5. **Endpoints da API REST**
+   Rotas para a API de reserva_salas
+   ```bash
+    GET /api/reserva_salas: Lista todas as reservas de salas.
+    GET /api/reserva_salas/{salas}: Obtém uma reserva específica pelo ID.
+    POST /api/reserva_salas: Cria uma nova reserva.
+    PUT /api/reserva_salas/{salas}: Atualiza uma reserva existente.
+    DELETE /api/reserva_salas/{salas}: Deleta uma reserva.
    
