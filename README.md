@@ -32,7 +32,7 @@ Este projeto é uma API REST desenvolvida em Laravel que permite realizar opera�
  ```bash
    php artisan migrate
 
-2. **Navegue até o diretório do projeto:**
-   ```bash
-   cd ReservaLaravel
+
+
+
    
