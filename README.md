@@ -36,7 +36,6 @@ Este projeto é uma API REST desenvolvida em Laravel que permite realizar opera�
    ```bash
    cp .env.example .env
 
-
 5. **SQL para Criação da Database e Tabelas no PostgreSQL**
    ```bash
    -- Criar a database
