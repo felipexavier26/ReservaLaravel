@@ -124,4 +124,4 @@ Este projeto √© uma API REST desenvolvida em Laravel que permite realizar opera√
 12. **Deletar uma reserva**
    ```bash
      ### 3. Deletar uma reserva
-    curl -X DELETE http://127.0.0.1:8000/api/salas/{id}
+     curl -X DELETE http://127.0.0.1:8000/api/salas/{id}
