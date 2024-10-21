@@ -96,7 +96,7 @@ Este projeto √© uma API REST desenvolvida em Laravel que permite realizar opera√
    ```bash
     curl -X GET  http://127.0.0.1:8000/api/reserva_salas/{id}
 
-10. ** Atualizar uma Sala Existente**
+10. **Atualizar uma Sala Existente**
     ```bash
     curl -X PUT http://127.0.0.1:8000/api/reserva_salas/{id} \
     -H "Content-Type: application/json" \
