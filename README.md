@@ -28,7 +28,8 @@ Este projeto é uma API REST desenvolvida em Laravel que permite realizar opera�
    ```bash
    cd ReservaLaravel
 
-2. **Execute as migrações para criar as tabelas no banco de dados**
+3. **Execute as migrações para criar as tabelas no banco de dados**
+ ```bash
    php artisan migrate
 
    
